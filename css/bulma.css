@@ -148,7 +148,7 @@ pre {
 }
 
 body {
-  color: #4a4a4a;
+  color: #ffffff;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -7110,7 +7110,7 @@ html.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #4a4a4a;
+  color: #ffffff;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 1rem;
@@ -7213,7 +7213,8 @@ a.navbar-link.is-active {
     display: flex;
   }
   .navbar-menu {
-    background-color: white;
+    background-color: black;
+    opacity: 0.7;
     -webkit-box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
             box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0;
@@ -10710,6 +10711,19 @@ label.panel-block:hover {
   .section.is-large {
     padding: 18rem 1.5rem;
   }
+}
+
+.navbar-item,
+.navbar-link {
+  color: #666666;
+  display: block;
+  line-height: 1.5;
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+
+
 }
 
 .footer {

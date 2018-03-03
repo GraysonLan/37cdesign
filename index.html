@@ -33,6 +33,8 @@
 
     <!-- BulmaCSS -->
     <link href="css/bulma.css" rel="stylesheet">
+    <link href="css/bulma-carousel.min.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -43,20 +45,34 @@
 </head>
 
 <body>
-    <div class="container is-fluid">
-      <nav class="navbar is-white" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            	<a class="navbar-item" href="index.html">
-              		<img src="img/logo.png" alt="37c Design Studio" width="88" height="28">
-            	</a>
-
-            	<div id="nav-toggle" class="navbar-burger" data-target="nav-menu">
-              		<span></span>
-              		<span></span>
-              		<span></span>
-            	</div>
+<div class="hero is-large has-carousel">
+        <div class="hero-carousel carousel-animated carousel-animate-fade" data-autoplay="true">
+                <div class='carousel-container'>
+                    <div class='carousel-item has-background is-active'>
+                      <img class="is-background" src="img/01.jpg" alt="" />
+                    </div>
+                    <div class='carousel-item has-background'>
+                      <img class="is-background" src="img/02.jpg" alt="" />
+                    </div>
+                    
+                </div>
         </div>
-            	<div id="nav-menu" class="navbar-menu">
+
+
+  <div class="hero-head">
+      <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+              <a class="navbar-item" href="index.html">
+                  <img src="img/logo.png" alt="37c Design Studio" width="88" height="28">
+              </a>
+
+              <div id="nav-toggle" class="navbar-burger" data-target="nav-menu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+        </div>
+              <div id="nav-menu" class="navbar-menu">
                         <div class="navbar-start">                         
                           <a class="navbar-item is-active" href="index.html">
                             Home
@@ -71,11 +87,11 @@
                             Contact
                           </a> 
                         </div>
-             	</div>        
+              </div>        
       </nav>
-    </div>
+  </div>
 
-
+</div>
 
 
 
@@ -89,6 +105,7 @@
 
     <script src="js/bulma.js"></script>
 
+    <script src="js/bulma-carousel.js"></script>
     
 
 </body>
