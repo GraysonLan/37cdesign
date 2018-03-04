@@ -36,6 +36,15 @@
 	height:100%;
 	width:100%}
 
+.hero-carousel .carousel-container02 .carousel-item.has-background .is-background
+{
+	-o-object-fit:cover;
+	object-fit:cover;
+	-o-object-position:center center;
+	object-position:center center;
+	height:40%;
+	width:100%}
+
 .hero-carousel .carousel-container .carousel-item .title
 {
 	position:absolute;

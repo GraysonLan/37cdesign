@@ -23,7 +23,6 @@
 /*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
 html,
 body,
-p,
 ol,
 ul,
 li,
@@ -46,6 +45,16 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
+}
+
+p{
+
+margin-top: 2em;
+margin-left: 12em;
+margin-right: 12em;
+
+
+
 }
 
 h1,
@@ -1287,7 +1296,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 
 .box {
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
           box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
   color: #4a4a4a;
@@ -2564,10 +2573,20 @@ a.box:active {
     width: 960px;
   }
   .container.is-fluid {
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-top: 4em;
     max-width: none;
     width: auto;
+    background-color: #fff;
+  }
+    .container.is-fluid2 {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 4em;
+    max-width: none;
+    width: auto;
+    background-color: #fff;
   }
 }
 
@@ -2596,6 +2615,7 @@ a.box:active {
   .container {
     max-width: 1344px;
     width: 1344px;
+    margin-top: 2em;
   }
 }
 
@@ -2630,7 +2650,14 @@ a.box:active {
 
 .content h1 {
   font-size: 2em;
+  font-weight: 700;
+  color: #666666;
+  line-height: 1.25;
+  margin-top: 2em;
   margin-bottom: 0.5em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-top: 0.5em;
 }
 
 .content h1:not(:first-child) {
