@@ -19,7 +19,12 @@
             transform: rotate(359deg);
   }
 }
-
+::-moz-selection {
+ background: #4a4a4a; color: white;
+}
+::selection {
+ background: #4a4a4a; color: white;
+}
 /*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
 html,
 body,
@@ -196,6 +201,15 @@ hr {
 img {
   height: auto;
   max-width: 100%;
+}
+
+.img{
+  height: auto;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  width:100%;
+  padding-bottom:20px
+  
 }
 
 input[type="checkbox"],
@@ -1302,6 +1316,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   color: #4a4a4a;
   display: block;
   padding: 1.25rem;
+  margin-bottom: 4em;
 }
 
 .box:not(:last-child) {
@@ -2684,7 +2699,10 @@ a.box:active {
 
 .content h4 {
   font-size: 1.25em;
+  font-weight: 500;
   margin-bottom: 0.8em;
+  margin-left: 9.6em;
+  margin-right: 9.6em;
 }
 
 .content h5 {
@@ -10755,4 +10773,33 @@ label.panel-block:hover {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem;
 }
+
+.wrapper{
+  width:100%;
+  height:100%;
+  margin:0 auto;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  background:transparent;
+  padding-bottom: 20px;
+}
+
+.h_iframe{
+  position:relative;
+}
+
+.h_iframe .ratio{
+  display:block;
+  width:100%;
+  height:auto;
+}
+
+.h_iframe iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
 /*# sourceMappingURL=bulma.css.map */
