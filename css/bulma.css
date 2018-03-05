@@ -7169,8 +7169,8 @@ a.navbar-item:hover, a.navbar-item.is-active,
 a.navbar-link:hover,
 a.navbar-link.is-active {
   background-color: ;
-  color: #ffffff;
-  font-weight: 700;
+  color: #999;
+  
 }
 
 .navbar-item {
@@ -7494,9 +7494,9 @@ a.navbar-link.is-active {
   a.navbar-link.is-active {
     border-bottom: solid;
     border-bottom-width: 1px;
-    border-bottom-color: transparent;
+    border-bottom-color: #ffffff;
     background-color: transparent;
-    color: #0a0a0a;
+    color: #ffffff;
   }
   a.navbar-item.is-active:not(:hover),
   a.navbar-link.is-active:not(:hover) {
