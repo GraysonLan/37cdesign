@@ -45,8 +45,13 @@
 </head>
 
 <body>
+<section>
+
 <div class="hero is-large has-carousel">
+
+
         <div class="hero-carousel carousel-animated carousel-animate-fade" data-autoplay="true">
+
                 <div class='carousel-container'>
                     <div class="carousel-item has-background is-active" >
                       <img class="is-background" src="img/banner/04.png" alt="" />
@@ -54,22 +59,33 @@
                     </div>
                     <div class="carousel-item has-background">
                       <img class="is-background" src="img/banner/02.png" alt="" />
-                      <a class="title">Yilan Young Wind Band 10th Anniversary<br>Concert Visual Design</a>
+                      <a class="title">
+                      	Yilan Young Wind Band 10th Anniversary<br>Concert Visual Design</a>
                     </div>
                     <div class="carousel-item has-background">
                       <img class="is-background" src="img/banner/03.png" alt="" />
-                      <a class="title">Yilan Young Wind Band 10th Anniversary<br>Concert Visual Design</a>
+                      <a class="title" href="project_01.html">
+                      	Yilan Young Wind Band 10th Anniversary<br>Concert Visual Design</a>
                     </div>
                     <div class="carousel-item has-background">
                       <img class="is-background" src="img/banner/01.png" alt="" />
                       <a class="title">HWTrek Asia Innovation<br>Tour 2016 Trailer</a>
-                    </div>
-                    
+                    </div>                    
                 </div>
         </div>
 
 
-  <div class="hero-head">
+        <div class="hero-carousel">
+        	<div class="carousel-container">
+        		<div class="carousel-item">
+        			<p id="number" class="count">37</p>
+        		</div>	
+        	</div>
+        </div>
+
+
+	  <div class="hero-head">
+
       <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
               <a class="navbar-item" href="index.html">
@@ -97,21 +113,13 @@
                             Contact
                           </a> 
                         </div>
-              </div>        
+              </div>  
       </nav>
-
-
-
   </div>
 
-
-
-
-
-  </div>
 </div>
 
-
+</section>
 
 
 
@@ -124,7 +132,20 @@
     <script src="js/bulma.js"></script>
 
     <script src="js/bulma-carousel.js"></script>
-    
+    <script>
+		    $('.count').each(function () {
+		    $(this).prop('Counter',0).animate({
+		        Counter: $(this).text()
+		    }, {
+		        duration: 5000,
+		        easing: 'swing',
+		        step: function (now) {
+		            $(this).text(Math.ceil(now));
+		        }
+		    });
+		});
+	</script>
+
 
 </body>
 
