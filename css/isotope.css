@@ -1,5 +1,5 @@
 .isotope {
-	margin-top: 10px;
+	margin-top: 1em;
 }
 
 .folio-inner {
@@ -141,10 +141,27 @@
 	width: 50%;
 	overflow: hidden;
 }
+@media screen and (min-width: 1024px) {
 
 #portfolio-home.folio-boxed-3col .project-item {
 	width: 33.3333333%;
 	overflow: hidden;
+}
+}
+
+@media screen and (max-width: 1023px) {
+#portfolio-home.folio-boxed-3col .project-item {
+	width: 50%;
+	overflow: hidden;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+#portfolio-home.folio-boxed-3col .project-item {
+	width: 100%;
+	overflow: hidden;
+}
 }
 
 #portfolio-home.folio-boxed-4col .project-item {
