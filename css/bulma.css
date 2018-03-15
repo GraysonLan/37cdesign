@@ -2593,12 +2593,21 @@ a.box:active {
     margin-top: 4em;
     max-width: none;
     width: auto;
-    background-color: #fff;
+    background-color:;
   }
     .container.is-fluid2 {
     margin-left: 20em;
     margin-right: 20em;
-    margin-top: 0em;
+    margin-top: 4em;
+    max-width: none;
+    width: auto;
+  }
+}
+
+.container.is-fluid3 {
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-top: 4em;
     max-width: none;
     width: auto;
   }
