@@ -58,7 +58,13 @@ margin-top: 2em;
 margin-left: 12em;
 margin-right: 12em;
 
+}
 
+p1{
+
+margin-top: 2em;
+margin-left: 12em;
+margin-right: 12em;
 
 }
 
@@ -2685,6 +2691,7 @@ a.box:active {
     max-width: 960px;
     width: 960px;
   }
+
   .container.is-fluid {
     margin-left: 20em;
     margin-right: 20em;
@@ -2694,11 +2701,9 @@ a.box:active {
     background-color:;
   }
     .container.is-fluid2 {
-    margin-left: 40em;
-    margin-right: 40em;
-    margin-top: 8em;
-    max-width: none;
-    width: auto;
+    margin-top: 10em;
+    max-width: 480px;
+    width: 480px;
   }
 
   }
@@ -10975,12 +10980,9 @@ p{
   }
 
   .container.is-fluid2 {
-    margin-left: 0em;
-    margin-right: 0em;
-    margin-top: 8em;
-    max-width: none;
-    width: auto;
-    background-color:;
+    margin-top: 10em;
+    max-width: 480px;
+    width: 480px;
   }
 
   .container.is-fluid3 {
@@ -11047,12 +11049,9 @@ p{
   }
 
   .container.is-fluid2 {
-    margin-left: 0em;
-    margin-right: 0em;
-    margin-top: 8em;
-    max-width: none;
-    width: auto;
-    background-color:;
+    margin-top: 6em;
+    max-width: 320px;
+    width: 320px;
   } 
   .container.is-fluid3 {
     margin-left: 0em;
@@ -11102,6 +11101,14 @@ p{
   background:transparent;
   padding-bottom: 20px;
 }
+}
+
+@media screen and (max-width: 479px) {
+  .container.is-fluid2 {
+    margin-top: 6em;
+    max-width: 320px;
+    width: 320px;
+  } 
 }
 
 #number
