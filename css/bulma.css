@@ -10885,6 +10885,7 @@ label.panel-block:hover {
 }
 
 .footer {
+  position: relative;
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem;
 }
