@@ -2695,7 +2695,7 @@ a.box:active {
     background-color:;
   }
     .container.is-fluid2 {
-    margin-top: 10em;
+    margin-top: 8em;
     max-width: 480px;
     width: 480px;
   }
@@ -10977,7 +10977,7 @@ p{
   }
 
   .container.is-fluid2 {
-    margin-top: 10em;
+    margin-top: 8em;
     max-width: 480px;
     width: 480px;
   }
@@ -11046,7 +11046,7 @@ p{
   }
 
   .container.is-fluid2 {
-    margin-top: 6em;
+    margin-top: 8em;
     max-width: 320px;
     width: 320px;
   } 
