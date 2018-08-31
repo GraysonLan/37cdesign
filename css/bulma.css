@@ -11254,7 +11254,7 @@ p{
 @media screen and (min-width: 1024px) {
 
 #portfolio-home.folio-boxed-col .project-item {
-  width: 33.3333333%;
+  width: 25%;
   overflow: hidden;
 }
 }
@@ -11297,6 +11297,14 @@ p{
   text-align: center;
   transition: .4s;
   width:100%;
+}
+
+#portfolio-home.folio-boxed-col .project-item a {
+  display: flex;
+}
+
+#portfolio-home.folio-boxed-col .project-item img {
+  height: 100%;
 }
 
 #portfolio-home.folio-boxed-col .project-item img {
